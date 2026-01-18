@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Qingli Liu</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="nav-left">
+        <div class="brand"><a href="index.html">Qingli Liu</a></div>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a class="active" href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <h1>Contact</h1>
+
+    <div class="card">
+      <p><strong>Email:</strong> yourname [at] university.edu</p>
+      <p><strong>Office:</strong> Department, Building, City</p>
+      <p><strong>Google Scholar:</strong> <a href="#">Link</a></p>
+      <p><strong>GitHub:</strong> <a href="#">Link</a></p>
+      <p><strong>CV:</strong> <a href="#">PDF Link</a></p>
+    </div>
+
+    <div class="footer">
+      © <span id="y"></span> Qingli Liu
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
