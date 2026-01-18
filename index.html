@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Qingli Liu</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="nav-left">
+        <div class="brand"><a href="index.html">Qingli Liu</a></div>
+      </div>
+      <div class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div>
+        <img class="profile" src="assets/profile.jpg" alt="Profile photo" />
+        <div class="card" style="margin-top:14px;">
+          <div><strong>Position</strong></div>
+          <div class="small">Research Assistant / Postdoc (incoming)</div>
+          <div style="height:10px"></div>
+          <div><strong>Affiliation</strong></div>
+          <div class="small">The Hong Kong Polytechnic University</div>
+          <div style="height:10px"></div>
+          <div><strong>Research</strong></div>
+          <div class="small">Agentic AI • Safety/Accident Investigation • Human–AI Interaction</div>
+        </div>
+      </div>
+
+      <div>
+        <h1>About</h1>
+        <p>
+          I am Qingli Liu. I work on AI-driven accident investigation and safety analytics, with a focus on
+          agentic and interpretable systems for causal chain reconstruction in safety-critical domains
+          (e.g., aviation and transportation).
+        </p>
+
+        <h2>Research Interests</h2>
+        <ul>
+          <li>Agentic AI for accident investigation (evidence integration, causal DAG reconstruction)</li>
+          <li>Human–AI interaction in safety-critical settings (trust, workload, mismatch)</li>
+          <li>Interpretable causal representations and safety decision support</li>
+        </ul>
+
+        <h2>News</h2>
+        <div class="card">
+          <div class="news-item">
+            <div class="badge">2026-01</div>
+            <div>Website launched on GitHub Pages.</div>
+          </div>
+          <div class="news-item" style="margin-top:10px;">
+            <div class="badge">2025-12</div>
+            <div>PhD degree conferred (Dec 2025).</div>
+          </div>
+          <!-- 你可以继续加 news -->
+        </div>
+
+        <div class="footer">
+          © <span id="y"></span> Qingli Liu • Built with GitHub Pages
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
